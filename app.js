@@ -10,7 +10,7 @@ const port = process.env.PORT || 3001;
 
 // Configure the proxy middleware
 const proxyOptions = {
-    target: 'http://146.148.16.119',
+    target: 'http://worldtimeapi.org',
     changeOrigin: true,
 };
 
